@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f9fafb;
+  --foreground: #171717;
+  --cyan-600: #0891b2;
+  --cyan-700: #0e7490;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: linear-gradient(to bottom right, #f9fafb, #ecfeff);
+  color: var(--foreground);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+.tab-btn {
+  transition: all 0.3s;
+}
+
+.tab-btn.active {
+  color: #06b6d4;
+  border-bottom: 3px solid #06b6d4;
+}
+
+.tab-btn:hover:not(.active) {
+  background: #f0fdfa;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
