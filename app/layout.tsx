@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Carbon Utilization Calculator",
-  description: "Calculate and analyze your carbon footprint with Scope 1, 2, 3 emissions tracking, offset calculations, and scenario comparisons",
+  title: "Carbon Utilization Calculator | GHG Emissions Tracker",
+  description: "Calculate and analyze your carbon footprint with Scope 1, 2, 3 emissions tracking, offset calculations, and scenario comparisons. Built with GHG Protocol standards.",
 };
 
 export default function RootLayout({
